@@ -1,6 +1,4 @@
-﻿using EventPlanner.Modules.UserManagement.Domain;
-
-namespace EventPlanner.Modules.UserManagement.ArchTests;
+﻿namespace EventPlanner.Modules.VenueManagement.ArchTests;
 
 public class ProjectReferenceTests
 {

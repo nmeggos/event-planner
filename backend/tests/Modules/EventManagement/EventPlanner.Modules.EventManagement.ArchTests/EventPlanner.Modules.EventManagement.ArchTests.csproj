@@ -21,10 +21,10 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\..\src\Modules\UserManagement\EventPlanner.Modules.UserManagement.API\EventPlanner.Modules.UserManagement.API.csproj" />
-      <ProjectReference Include="..\..\..\..\src\Modules\UserManagement\EventPlanner.Modules.UserManagement.Application\EventPlanner.Modules.UserManagement.Application.csproj" />
-      <ProjectReference Include="..\..\..\..\src\Modules\UserManagement\EventPlanner.Modules.UserManagement.Domain\EventPlanner.Modules.UserManagement.Domain.csproj" />
-      <ProjectReference Include="..\..\..\..\src\Modules\UserManagement\EventPlanner.Modules.UserManagement.Infrastructure\EventPlanner.Modules.UserManagement.Infrastructure.csproj" />
+      <ProjectReference Include="..\..\..\..\src\Modules\EventManagement\EventPlanner.Modules.EventManagement.API\EventPlanner.Modules.EventManagement.API.csproj" />
+      <ProjectReference Include="..\..\..\..\src\Modules\EventManagement\EventPlanner.Modules.EventManagement.Application\EventPlanner.Modules.EventManagement.Application.csproj" />
+      <ProjectReference Include="..\..\..\..\src\Modules\EventManagement\EventPlanner.Modules.EventManagement.Domain\EventPlanner.Modules.EventManagement.Domain.csproj" />
+      <ProjectReference Include="..\..\..\..\src\Modules\EventManagement\EventPlanner.Modules.EventManagement.Infrastructure\EventPlanner.Modules.EventManagement.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

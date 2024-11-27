@@ -51,6 +51,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserManagement", "UserManag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventPlanner.Modules.UserManagement.ArchTests", "tests\Modules\UserManagement\EventPlanner.Modules.UserManagement.ArchTests\EventPlanner.Modules.UserManagement.ArchTests.csproj", "{7882E602-8092-421A-94E0-5A0564184FCC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventManagement", "EventManagement", "{D5B4792E-D9B3-4F54-AFF2-BCABD09CE082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventPlanner.Modules.EventManagement.ArchTests", "tests\Modules\EventManagement\EventPlanner.Modules.EventManagement.ArchTests\EventPlanner.Modules.EventManagement.ArchTests.csproj", "{A98D65C5-FC4C-40C4-905F-905CC50AB8F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VenueManagement", "VenueManagement", "{6690A436-0E72-47FF-8C24-B4AF78CF4CB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventPlanner.Modules.VenueManagement.ArchTests", "tests\Modules\VenueManagement\EventPlanner.Modules.VenueManagement.ArchTests\EventPlanner.Modules.VenueManagement.ArchTests.csproj", "{641F83BB-37D3-4869-A5E8-701A75B88EC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +88,10 @@ Global
 		{5CAA0B1E-27D2-4F1B-BD33-DD4943E154AE} = {F97F72F2-9BF9-41F8-9458-DBEE109B32DA}
 		{3760C269-4882-4F50-B02A-D17D0BFDD4D2} = {5F90B273-56BE-4A2F-9432-4B0024D79E80}
 		{7882E602-8092-421A-94E0-5A0564184FCC} = {3760C269-4882-4F50-B02A-D17D0BFDD4D2}
+		{D5B4792E-D9B3-4F54-AFF2-BCABD09CE082} = {5F90B273-56BE-4A2F-9432-4B0024D79E80}
+		{A98D65C5-FC4C-40C4-905F-905CC50AB8F8} = {D5B4792E-D9B3-4F54-AFF2-BCABD09CE082}
+		{6690A436-0E72-47FF-8C24-B4AF78CF4CB3} = {5F90B273-56BE-4A2F-9432-4B0024D79E80}
+		{641F83BB-37D3-4869-A5E8-701A75B88EC0} = {6690A436-0E72-47FF-8C24-B4AF78CF4CB3}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{174D5FF5-2111-4F92-802B-090A0335556B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -142,5 +154,13 @@ Global
 		{7882E602-8092-421A-94E0-5A0564184FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7882E602-8092-421A-94E0-5A0564184FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7882E602-8092-421A-94E0-5A0564184FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A98D65C5-FC4C-40C4-905F-905CC50AB8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98D65C5-FC4C-40C4-905F-905CC50AB8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98D65C5-FC4C-40C4-905F-905CC50AB8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98D65C5-FC4C-40C4-905F-905CC50AB8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641F83BB-37D3-4869-A5E8-701A75B88EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641F83BB-37D3-4869-A5E8-701A75B88EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641F83BB-37D3-4869-A5E8-701A75B88EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641F83BB-37D3-4869-A5E8-701A75B88EC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

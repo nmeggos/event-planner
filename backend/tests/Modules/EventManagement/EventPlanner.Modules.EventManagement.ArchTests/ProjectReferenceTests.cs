@@ -1,6 +1,10 @@
-﻿using EventPlanner.Modules.UserManagement.Domain;
+﻿using EventPlanner.Modules.EventManagement.API;
+using EventPlanner.Modules.EventManagement.Application;
+using EventPlanner.Modules.EventManagement.Domain;
+using EventPlanner.Modules.EventManagement.Infrastructure;
+using FluentAssertions;
 
-namespace EventPlanner.Modules.UserManagement.ArchTests;
+namespace EventPlanner.Modules.EventManagement.ArchTests;
 
 public class ProjectReferenceTests
 {
