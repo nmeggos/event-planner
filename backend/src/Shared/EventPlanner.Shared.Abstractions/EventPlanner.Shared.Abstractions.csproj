@@ -6,8 +6,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\..\..\Shared\EventPlanner.Shared.Abstractions\EventPlanner.Shared.Abstractions.csproj" />
-    </ItemGroup>
-
 </Project>
