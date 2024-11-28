@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="coverlet.collector" Version="6.0.2"/>
+        <PackageReference Include="FluentAssertions" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1"/>
+        <PackageReference Include="NetArchTest.Rules" />
+        <PackageReference Include="xunit" Version="2.9.2"/>
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Using Include="Xunit"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\src\Modules\EventManagement\EventPlanner.Modules.EventManagement.API\EventPlanner.Modules.EventManagement.API.csproj" />
+      <ProjectReference Include="..\..\..\src\Modules\EventManagement\EventPlanner.Modules.EventManagement.Application\EventPlanner.Modules.EventManagement.Application.csproj" />
+      <ProjectReference Include="..\..\..\src\Modules\EventManagement\EventPlanner.Modules.EventManagement.Domain\EventPlanner.Modules.EventManagement.Domain.csproj" />
+      <ProjectReference Include="..\..\..\src\Modules\EventManagement\EventPlanner.Modules.EventManagement.Infrastructure\EventPlanner.Modules.EventManagement.Infrastructure.csproj" />
+      <ProjectReference Include="..\..\..\src\Modules\UserManagement\EventPlanner.Modules.UserManagement.API\EventPlanner.Modules.UserManagement.API.csproj" />
+      <ProjectReference Include="..\..\..\src\Modules\UserManagement\EventPlanner.Modules.UserManagement.Application\EventPlanner.Modules.UserManagement.Application.csproj" />
+      <ProjectReference Include="..\..\..\src\Modules\UserManagement\EventPlanner.Modules.UserManagement.Domain\EventPlanner.Modules.UserManagement.Domain.csproj" />
+      <ProjectReference Include="..\..\..\src\Modules\UserManagement\EventPlanner.Modules.UserManagement.Infrastructure\EventPlanner.Modules.UserManagement.Infrastructure.csproj" />
+      <ProjectReference Include="..\..\..\src\Modules\VenueManagement\EventPlanner.Modules.VenueManagement.API\EventPlanner.Modules.VenueManagement.API.csproj" />
+      <ProjectReference Include="..\..\..\src\Modules\VenueManagement\EventPlanner.Modules.VenueManagement.Application\EventPlanner.Modules.VenueManagement.Application.csproj" />
+      <ProjectReference Include="..\..\..\src\Modules\VenueManagement\EventPlanner.Modules.VenueManagement.Domain\EventPlanner.Modules.VenueManagement.Domain.csproj" />
+      <ProjectReference Include="..\..\..\src\Modules\VenueManagement\EventPlanner.Modules.VenueManagement.Infrastructure\EventPlanner.Modules.VenueManagement.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

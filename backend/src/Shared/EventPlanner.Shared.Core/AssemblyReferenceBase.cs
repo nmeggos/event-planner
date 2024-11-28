@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace EventPlanner.Shared.Abstractions;
+namespace EventPlanner.Shared.Core;
 
 public abstract class AssemblyReferenceBase
 {

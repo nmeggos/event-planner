@@ -5,4 +5,7 @@ app.MapGet("/", () => "Hello World!");
 
 app.Run();
 
-public partial class Program {}
+namespace EventPlanner.Modules.EventManagement.API
+{
+    public partial class Program {}
+}

@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\..\Shared\EventPlanner.Shared.Abstractions\EventPlanner.Shared.Abstractions.csproj" />
+      <ProjectReference Include="..\..\..\Shared\EventPlanner.Shared.Core\EventPlanner.Shared.Core.csproj" />
     </ItemGroup>
 
 </Project>
