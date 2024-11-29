@@ -1,5 +1,4 @@
-﻿using Ardalis.GuardClauses;
-using EventPlanner.Shared.Core.Guards;
+﻿using EventPlanner.Shared.Core.Guards;
 
 namespace EventPlanner.Shared.Core.Domain.ValueObjects;
 

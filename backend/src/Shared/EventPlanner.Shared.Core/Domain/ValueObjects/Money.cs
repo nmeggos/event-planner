@@ -1,6 +1,4 @@
-﻿using Ardalis.GuardClauses;
-
-namespace EventPlanner.Shared.Core.Domain.ValueObjects;
+﻿namespace EventPlanner.Shared.Core.Domain.ValueObjects;
 
 public record Money
 {

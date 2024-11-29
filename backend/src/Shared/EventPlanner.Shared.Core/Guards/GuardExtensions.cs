@@ -1,5 +1,4 @@
 ﻿using System.Text.RegularExpressions;
-using Ardalis.GuardClauses;
 using EventPlanner.Shared.Core.Exceptions;
 
 namespace EventPlanner.Shared.Core.Guards;
