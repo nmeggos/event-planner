@@ -26,8 +26,4 @@
       <ProjectReference Include="..\..\..\src\Shared\EventPlanner.Shared.Infrastructure\EventPlanner.Shared.Infrastructure.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Abstractions\" />
-    </ItemGroup>
-
 </Project>

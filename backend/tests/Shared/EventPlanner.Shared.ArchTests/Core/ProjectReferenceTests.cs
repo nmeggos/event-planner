@@ -1,5 +1,4 @@
-﻿using EventPlanner.Shared.Abstractions.CQRS.Commands;
-using EventPlanner.Shared.Core.Exceptions;
+﻿using EventPlanner.Shared.Core.Exceptions;
 
 namespace EventPlanner.Shared.ArchTests.Core;
 
